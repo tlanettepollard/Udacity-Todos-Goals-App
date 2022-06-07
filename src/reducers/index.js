@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-import todos from './todos';
-import loading from './loading';
 import goals from './goals';
+import loading from './loading';
+import todos from './todos';
 
 export default combineReducers({
 	todos,
